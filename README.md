@@ -19,7 +19,7 @@ Spring Boot SSO implemented with Oauth2 and Zuul proxy, with .jdbc() instead of 
 
 ### Postman/RESTClient
 
-Base64 encode for "Authorization"
+Base64 encode for "Authorization"  
 Mac/Linux `echo -n 'clientId:clientSecret' | openssl base64`
 
 | Access and refresh token | Call API with access token   |
