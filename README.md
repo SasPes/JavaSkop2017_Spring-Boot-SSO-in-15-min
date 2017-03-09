@@ -34,3 +34,38 @@ Mac/Linux `echo -n 'clientId:clientSecret' | openssl base64`
 | :---: | :---: |
 | <img src="imgs/postman1.png" width="350"> | <img src="imgs/postman2.png" width="350"> |
 
+### Links
+1. http://www.baeldung.com/spring-rest-with-zuul-proxy
+    * zuul, cors
+2. https://spring.io/guides/tutorials/spring-boot-oauth2/
+    * official
+3. https://github.com/Netflix/zuul
+    * official
+4. http://techblog.netflix.com/2013/06/announcing-zuul-edge-service-in-cloud.html
+    * Announcing Zuul: Edge Service in the Cloud
+5. http://techblog.netflix.com/2016/09/zuul-2-netflix-journey-to-asynchronous.html
+    * Zuul 2 : The Netflix Journey to Asynchronous, Non-Blocking Systems
+6. https://blog.heroku.com/using_netflix_zuul_to_proxy_your_microservices
+    * Using Netflix Zuul to Proxy your Microservices
+7. https://github.com/spring-guides/tut-spring-security-and-angular-js/issues/121
+    * logout
+8. https://docs.spring.io/spring-security/site/docs/current/reference/html/csrf.html#csrf-logout
+    * logout
+9. https://github.com/spring-guides/tut-spring-security-and-angular-js/issues/106
+    * logout
+10. http://stackoverflow.com/questions/38311521/issues-creating-oauth-secured-microservices-using-spring-boot-eureka-zuul-spr
+    * behind proxy (Zuul)
+11. http://cloud.spring.io/spring-cloud-netflix/spring-cloud-netflix.html#_cookies_and_sensitive_headers
+    * Cookies and Sensitive Headers 
+12. https://github.com/kakawait/uaa-behind-zuul-sample
+    * oauth2 behind zuul
+13. http://projects.spring.io/spring-cloud/spring-cloud.html#_token_relay
+    * Token Relay
+14. http://stackoverflow.com/questions/30327269/spring-oauth-authorization-server-behind-spring-cloud-zuul-proxy
+    * https://<zuul hostname>/uaa/oauth/token
+15. http://stackoverflow.com/questions/12909332/how-to-logout-of-an-application-where-i-used-oauth2-to-login-with-google
+    * oauth2 explanation
+16. http://stackoverflow.com/questions/33167609/why-does-loginlogout-redirect-to-login
+    * login?logout explenation
+17. http://stackoverflow.com/questions/34718586/spring-security-oauth2-enableoauth2sso-but-accept-tokens-as-authentication-t
+    * Spring Security OAuth2 - @EnableOauth2Sso but accept tokens as authentication, too
