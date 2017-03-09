@@ -1,3 +1,4 @@
+
 # [JavaSkop 2017](http://jug.mk/javaskop17)
 
 Spring Boot SSO implemented with Oauth2 and Zuul proxy, focuses on client developer simplicity while providing specific authorization flows for web and desktop apps, mobile and IoT devices.
@@ -15,3 +16,14 @@ Spring Boot SSO implemented with Oauth2 and Zuul proxy, focuses on client develo
 
 ### Description
 Spring Boot SSO implemented with Oauth2 and Zuul proxy, with .jdbc() instead of .inMemory(), focuses on client developer simplicity while providing specific authorization flows for web and desktop apps, mobile and IoT devices. Implementation .inMemory() will be faster, but if multiple clients are consuming this then it is better to have it in .jdbc(). Will use an OAuth2 server as the authenticator, so that we can also use it to grant tokens for the backend resource server using MySQL as client, user and token store. The goal is to work around CORS and the Same Origin Policy restriction of the browser and allow the UI to call the API even though they don't share the same origin using Zuul proxy.
+
+### Postman/RESTClient
+
+Base64 encode  
+Mac/Linux `echo -n 'clientId:clientSecret' | openssl base64`
+
+Access and refresh token  
+<img src="imgs/postman1.png" width="300">  
+
+Call API with access token  
+<img src="imgs/postman1.png" width="300">  
