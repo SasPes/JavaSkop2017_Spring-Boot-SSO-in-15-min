@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"></link>
+    </head>
+
+    <body>
+        <section>
+            <form action="#" th:action="@{/user/save}" th:object="${user}" th:method="post">
+                <input type="hidden" th:field="*{id}" />
+                <div class="form-wrapper" >
+                    <div class="contact-section">
+
+                        <div class="input-wrapper" id="checkUserName">
+                            <div>Username:</div>
+                            <div class="input-field">
+                                <input  class="input-text" id="username" placeholder="Enter username" type="text" th:field="*{username}" />
+                            </div>
+                        </div><!-- /.username -->
+
+                        <div class="input-wrapper">
+                            <div>Password:</div>
+                            <div class="input-field">
+                                <input  class="input-text" type="password" name="password" th:value="*{password}" placeholder="Enter user password" required="required" />
+                            </div>
+                        </div>
+
+                        <div class="input-wrapper">
+                            <div>Enabled:</div>
+                            <div class="input-field">
+                                <input type="checkbox" th:field="*{enabled}" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <input type="reset" value="Go Back" class="btn btn-secondary" th:onclick="'goBack()'" />
+                <input type="submit" class="btn btn-primary" value="Save" />
+            </form>
+        </section>
+        <script type="text/javascript">
+            /*<![CDATA[*/
+            function goBack(id) {
+                window.location.replace('/admin/user/list');
+            }
+            /*]]>*/
+        </script>
+    </body>
+</html>
