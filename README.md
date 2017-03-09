@@ -5,7 +5,7 @@ Spring Boot SSO implemented with Oauth2 and Zuul proxy, focuses on client develo
 
 ## Spring Boot SSO in 15 min
 
-\#SpringBoot #Oauth2 #Zuul #MySQL
+\#SpringBoot #Oauth2 #Zuul #MySQL #react #node #Thymeleaf
 
 ### Projects
 * 01 Proxy
@@ -16,6 +16,14 @@ Spring Boot SSO implemented with Oauth2 and Zuul proxy, focuses on client develo
 
 ### Description
 Spring Boot SSO implemented with Oauth2 and Zuul proxy, with .jdbc() instead of .inMemory(), focuses on client developer simplicity while providing specific authorization flows for web and desktop apps, mobile and IoT devices. Implementation .inMemory() will be faster, but if multiple clients are consuming this then it is better to have it in .jdbc(). Will use an OAuth2 server as the authenticator, so that we can also use it to grant tokens for the backend resource server using MySQL as client, user and token store. The goal is to work around CORS and the Same Origin Policy restriction of the browser and allow the UI to call the API even though they don't share the same origin using Zuul proxy.
+
+### Architecture overview
+<img src="diagrams/architecture-overview.jpg" width="500">
+
+### 05 GUI
+`npm install`  
+`npm run build`  
+`npm run start`  
 
 ### Postman/RESTClient
 
