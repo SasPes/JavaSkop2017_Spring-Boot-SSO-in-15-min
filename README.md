@@ -22,8 +22,7 @@ Spring Boot SSO implemented with Oauth2 and Zuul proxy, with .jdbc() instead of 
 Base64 encode  
 Mac/Linux `echo -n 'clientId:clientSecret' | openssl base64`
 
-Access and refresh token  
-<img src="imgs/postman1.png" width="300">  
+| Access and refresh token | Call API with access token   |
+| :---: | :---: |
+| <img src="imgs/postman1.png" width="350"> | <img src="imgs/postman2.png" width="350"> |
 
-Call API with access token  
-<img src="imgs/postman1.png" width="300">  
