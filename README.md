@@ -3,6 +3,8 @@
 
 Spring Boot SSO implemented with Oauth2 and Zuul proxy, focuses on client developer simplicity while providing specific authorization flows for web and desktop apps, mobile and IoT devices.
 
+> Many thanks to [Polar Cape](http://polarcape.com/about-us/#team) colleagues for all the help and support in getting this project up and running
+
 ## Spring Boot SSO in 15 min
 
 \#SpringBoot #Oauth2 #Zuul #MySQL #react #node #Thymeleaf
