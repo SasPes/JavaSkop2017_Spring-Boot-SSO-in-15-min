@@ -20,7 +20,6 @@ var Table = React.createClass({
 
         return React.DOM.table({}, [thead, tbody]);
     }
-
 });
 
 var container = document.getElementById('example');
