@@ -20,7 +20,7 @@
     "webpack": "^1.13.1"
   },
   "dependencies": {
-    "axios": "^0.14.0",
+    "axios": "^0.19.0",
     "express": "^4.14.0",
     "fixed-data-table": "^0.6.3",
     "history": "^3.0.0",
